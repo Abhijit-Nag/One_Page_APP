@@ -1,4 +1,7 @@
 import React from 'react'
+import img1 from './images/bg_web-removebg-preview.png'
+import img2 from './images/Avenger_Blog_IronMan_Imagery4-ho31fqax6-removebg-preview.png'
+import img3 from './images/research-and-development-medication-vector-30145533-removebg-preview.png'
 
 export default function Cards() {
   return (
@@ -26,7 +29,7 @@ export default function Cards() {
           </div>
         </div>
 
-        <img src='/images/bg_web-removebg-preview.png ' className='cards_outimages' />
+        <img src={img1} className='cards_outimages' />
       </div>
       <hr />
       <hr />
@@ -36,7 +39,7 @@ export default function Cards() {
 
 
       <div className='cards_images'>
-        <img src='/images/Avenger_Blog_IronMan_Imagery4-ho31fqax6-removebg-preview.png' className='cards_outimages' id='robos' />
+        <img src={img2} className='cards_outimages' id='robos' />
 
         <div className="card">
 
@@ -84,7 +87,7 @@ export default function Cards() {
             </div>
           </div>
         </div>
-        <img src='/images/research-and-development-medication-vector-30145533-removebg-preview.png' className='cards_outimages' />
+        <img src={img3} className='cards_outimages' />
       </div>
 
     </>
