@@ -22,7 +22,7 @@ function App() {
     <>
       <Router>
         <div className='navbar'>
-          <span>< Link className='navigationbar' to="/">Home</Link></span>
+          <span>< Link className='navigationbar' to="/One_Page_APP">Home</Link></span>
           <span><Link className='navigationbar' to="/Counter">Counter</Link></span>
           <span><Link className='navigationbar' to="/Weather">Weather APP</Link> </span>
           <span><Link className='navigationbar' to="/todolist">To-Do List APP</Link></span>
